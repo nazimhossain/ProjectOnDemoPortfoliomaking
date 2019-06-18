@@ -1,0 +1,63 @@
+@media all and (max-width:768px){
+	.manu ul li{
+		float:none;
+	}
+	.manu ul{
+		padding:0;
+	}
+	.manu ul ul{
+		display:block;
+		position:inherit
+	}
+	.manu ul li a:hover{
+      background:transparent;
+}
+.manu ul ul li a:before{
+	content:'-';
+	margin-left:25px;
+}
+.manu2 ul li{
+		float:none;
+	}
+	.manu2 ul{
+		padding:0;
+	}
+	.manu2 ul ul{
+		display:block;
+		position:inherit
+	}
+	.manu2 ul ul {
+      background:trnasparent;
+}
+.manu2 ul ul li a:before{
+	content:'-';
+	margin-left:25px;
+}
+.port{
+
+	margin-left:250px;
+}
+.home ul li{
+	float:none;
+	
+}
+.col-1-3{
+	
+	float:46%;
+}
+.knock{
+	margin-left:0;
+	margin-top:0;
+	width:100%;
+}
+.log{
+	width:100%;
+}
+.underline img{
+  margin-left:250px;
+}
+.me{
+	width:100%;
+}
+
+}
